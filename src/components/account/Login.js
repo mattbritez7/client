@@ -123,6 +123,7 @@ export default function Login() {
                 onChange={handleInputChange}
               />
               </>
+              
             }
                 <a href="#" style={{marginTop: "20px"}} onClick={() => setPsw(true)}>¿Perdiste la contraseña?</a>
               {(psw === true) && <>
